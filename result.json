@@ -1,0 +1,2595 @@
+{
+    "captchaResult": "CAPTCHA_NOT_NEEDED",
+    "kind": "pagespeedonline#result",
+    "id": "https://www.marketreach.co.uk//",
+    "loadingExperience":
+    {
+        "id": "https://www.marketreach.co.uk",
+        "metrics":
+        {
+            "FIRST_INPUT_DELAY_MS":
+            {
+                "percentile": 103,
+                "distributions": [
+                {
+                    "min": 0,
+                    "max": 100,
+                    "proportion": 0.949820788530466
+                },
+                {
+                    "min": 100,
+                    "max": 300,
+                    "proportion": 0.017921146953405017
+                },
+                {
+                    "min": 300,
+                    "proportion": 0.03225806451612903
+                }],
+                "category": "AVERAGE"
+            },
+            "FIRST_CONTENTFUL_PAINT_MS":
+            {
+                "percentile": 4020,
+                "distributions": [
+                {
+                    "min": 0,
+                    "max": 1000,
+                    "proportion": 0.09368191721132897
+                },
+                {
+                    "min": 1000,
+                    "max": 3000,
+                    "proportion": 0.40522875816993453
+                },
+                {
+                    "min": 3000,
+                    "proportion": 0.5010893246187363
+                }],
+                "category": "SLOW"
+            }
+        },
+        "overall_category": "SLOW",
+        "initial_url": "https://www.marketreach.co.uk//"
+    },
+    "originLoadingExperience":
+    {
+        "id": "https://www.marketreach.co.uk",
+        "metrics":
+        {
+            "FIRST_INPUT_DELAY_MS":
+            {
+                "percentile": 103,
+                "distributions": [
+                {
+                    "min": 0,
+                    "max": 100,
+                    "proportion": 0.949820788530466
+                },
+                {
+                    "min": 100,
+                    "max": 300,
+                    "proportion": 0.017921146953405017
+                },
+                {
+                    "min": 300,
+                    "proportion": 0.03225806451612903
+                }],
+                "category": "AVERAGE"
+            },
+            "FIRST_CONTENTFUL_PAINT_MS":
+            {
+                "percentile": 4020,
+                "distributions": [
+                {
+                    "min": 0,
+                    "max": 1000,
+                    "proportion": 0.09368191721132897
+                },
+                {
+                    "min": 1000,
+                    "max": 3000,
+                    "proportion": 0.40522875816993453
+                },
+                {
+                    "min": 3000,
+                    "proportion": 0.5010893246187363
+                }],
+                "category": "SLOW"
+            }
+        },
+        "overall_category": "SLOW",
+        "initial_url": "https://www.marketreach.co.uk//"
+    },
+    "lighthouseResult":
+    {
+        "requestedUrl": "https://www.marketreach.co.uk//",
+        "finalUrl": "https://www.marketreach.co.uk//",
+        "lighthouseVersion": "5.6.0",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.120 Safari/537.36",
+        "fetchTime": "2020-03-09T12:48:30.388Z",
+        "environment":
+        {
+            "networkUserAgent": "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse",
+            "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/79.0.3945.120 Safari/537.36",
+            "benchmarkIndex": 802
+        },
+        "runWarnings": [],
+        "configSettings":
+        {
+            "emulatedFormFactor": "mobile",
+            "locale": "en-US",
+            "onlyCategories": ["performance"],
+            "channel": "lr"
+        },
+        "audits":
+        {
+            "offscreen-images":
+            {
+                "id": "offscreen-images",
+                "title": "Defer offscreen images",
+                "description": "Consider lazy-loading offscreen and hidden images after all critical resources have finished loading to lower time to interactive. [Learn more](https://web.dev/offscreen-images).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "details":
+                {
+                    "type": "opportunity",
+                    "items": [],
+                    "overallSavingsBytes": 0,
+                    "overallSavingsMs": 0,
+                    "headings": []
+                },
+                "warnings": [],
+                "numericValue": 0
+            },
+            "network-server-latency":
+            {
+                "id": "network-server-latency",
+                "title": "Server Backend Latencies",
+                "description": "Server latencies can impact web performance. If the server latency of an origin is high, it's an indication the server is overloaded or has poor backend performance. [Learn more](https://hpbn.co/primer-on-web-performance/#analyzing-the-resource-waterfall).",
+                "score": null,
+                "scoreDisplayMode": "informative",
+                "displayValue": "0\u00a0ms",
+                "details":
+                {
+                    "headings": [],
+                    "type": "table",
+                    "items": []
+                },
+                "numericValue": 0
+            },
+            "uses-responsive-images":
+            {
+                "id": "uses-responsive-images",
+                "title": "Properly size images",
+                "description": "Serve images that are appropriately-sized to save cellular data and improve load time. [Learn more](https://web.dev/uses-responsive-images).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "Potential savings of 41\u00a0KB",
+                "details":
+                {
+                    "type": "opportunity",
+                    "items": [
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/default/files/3_proven_ways_blue.png",
+                        "totalBytes": 39855,
+                        "wastedBytes": 19473,
+                        "wastedPercent": 48.859750000000005
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/default/files/Paper_Ostrich_InSand.jpg",
+                        "totalBytes": 17166,
+                        "wastedBytes": 8819,
+                        "wastedPercent": 51.37707031250001
+                    },
+                    {
+                        "wastedPercent": 30.22149686073059,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/PRO000000_RM_BrandQuilt.png",
+                        "totalBytes": 23209,
+                        "wastedBytes": 7014
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/default/files/PRO_4335_BusMail_Elephant_HR_1440x500px_v2.jpg",
+                        "totalBytes": 12694,
+                        "wastedBytes": 6522,
+                        "wastedPercent": 51.37707031250001
+                    }],
+                    "overallSavingsBytes": 41828,
+                    "overallSavingsMs": 0,
+                    "headings": [
+                    {
+                        "valueType": "thumbnail",
+                        "key": "url"
+                    },
+                    {
+                        "key": "url",
+                        "valueType": "url",
+                        "label": "URL"
+                    },
+                    {
+                        "valueType": "bytes",
+                        "label": "Size",
+                        "key": "totalBytes"
+                    },
+                    {
+                        "key": "wastedBytes",
+                        "valueType": "bytes",
+                        "label": "Potential Savings"
+                    }]
+                },
+                "warnings": [],
+                "numericValue": 0
+            },
+            "unused-css-rules":
+            {
+                "id": "unused-css-rules",
+                "title": "Remove unused CSS",
+                "description": "Remove dead rules from stylesheets and defer the loading of CSS not used for above-the-fold content to reduce unnecessary bytes consumed by network activity. [Learn more](https://web.dev/unused-css-rules).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "Potential savings of 26\u00a0KB",
+                "details":
+                {
+                    "overallSavingsMs": 0,
+                    "headings": [
+                    {
+                        "key": "url",
+                        "valueType": "url",
+                        "label": "URL"
+                    },
+                    {
+                        "key": "totalBytes",
+                        "valueType": "bytes",
+                        "label": "Size"
+                    },
+                    {
+                        "valueType": "bytes",
+                        "label": "Potential Savings",
+                        "key": "wastedBytes"
+                    }],
+                    "items": [
+                    {
+                        "wastedPercent": 92.36089841755998,
+                        "url": "@charset \"utf-8\";/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */html{li... } ...",
+                        "totalBytes": 29284,
+                        "wastedBytes": 27047
+                    }],
+                    "type": "opportunity",
+                    "overallSavingsBytes": 27047
+                },
+                "numericValue": 0
+            },
+            "speed-index":
+            {
+                "id": "speed-index",
+                "title": "Speed Index",
+                "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more](https://web.dev/speed-index).",
+                "score": null,
+                "scoreDisplayMode": "error",
+                "errorMessage": "Chrome didn't collect any screenshots during the page load. Please make sure there is content visible on the page, and then try re-running Lighthouse. (SPEEDINDEX_OF_ZERO)"
+            },
+            "first-cpu-idle":
+            {
+                "id": "first-cpu-idle",
+                "title": "First CPU Idle",
+                "description": "First CPU Idle marks the first time at which the page's main thread is quiet enough to handle input.  [Learn more](https://web.dev/first-cpu-idle).",
+                "score": 0.74,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "4.8\u00a0s",
+                "numericValue": 4833
+            },
+            "total-byte-weight":
+            {
+                "id": "total-byte-weight",
+                "title": "Avoids enormous network payloads",
+                "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn more](https://web.dev/total-byte-weight).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "Total size was 698\u00a0KB",
+                "details":
+                {
+                    "type": "table",
+                    "items": [
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/default/files/customer%20experience.png",
+                        "totalBytes": 109346
+                    },
+                    {
+                        "url": "https://tags.tiqcdn.com/utag/royalmail/marketreach/prod/utag.js?q6bh9q",
+                        "totalBytes": 92736
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/default/files/3%20Proven%20ways%20customer%20acquisition_2.png",
+                        "totalBytes": 69643
+                    },
+                    {
+                        "totalBytes": 49093,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/insight_promo_0.png"
+                    },
+                    {
+                        "totalBytes": 40427,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/3_proven_ways_blue.png"
+                    },
+                    {
+                        "totalBytes": 39412,
+                        "url": "https://www.marketreach.co.uk//"
+                    },
+                    {
+                        "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js",
+                        "totalBytes": 37865
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/jquery_update/replace/jquery/2.2/jquery.min.js?v=2.2.4",
+                        "totalBytes": 35473
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/js/app.js?cb=q6bh9q",
+                        "totalBytes": 29743
+                    },
+                    {
+                        "totalBytes": 26793,
+                        "url": "https://tags.tiqcdn.com/utag/royalmail/marketreach/prod/utag.899.js?utv=ut4.46.202002131050"
+                    }],
+                    "headings": [
+                    {
+                        "text": "URL",
+                        "itemType": "url",
+                        "key": "url"
+                    },
+                    {
+                        "key": "totalBytes",
+                        "itemType": "bytes",
+                        "text": "Size"
+                    }]
+                },
+                "numericValue": 714422
+            },
+            "mainthread-work-breakdown":
+            {
+                "id": "mainthread-work-breakdown",
+                "title": "Minimizes main-thread work",
+                "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://web.dev/mainthread-work-breakdown)",
+                "score": 0.9,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "2.0\u00a0s",
+                "details":
+                {
+                    "headings": [
+                    {
+                        "itemType": "text",
+                        "key": "groupLabel",
+                        "text": "Category"
+                    },
+                    {
+                        "key": "duration",
+                        "itemType": "ms",
+                        "text": "Time Spent",
+                        "granularity": 1
+                    }],
+                    "items": [
+                    {
+                        "group": "scriptEvaluation",
+                        "duration": 1045.8239999999987,
+                        "groupLabel": "Script Evaluation"
+                    },
+                    {
+                        "group": "styleLayout",
+                        "duration": 347.57599999999985,
+                        "groupLabel": "Style & Layout"
+                    },
+                    {
+                        "group": "other",
+                        "duration": 338.6000000000013,
+                        "groupLabel": "Other"
+                    },
+                    {
+                        "group": "parseHTML",
+                        "duration": 114.36000000000001,
+                        "groupLabel": "Parse HTML & CSS"
+                    },
+                    {
+                        "group": "scriptParseCompile",
+                        "duration": 86.16400000000003,
+                        "groupLabel": "Script Parsing & Compilation"
+                    },
+                    {
+                        "group": "paintCompositeRender",
+                        "duration": 74.5,
+                        "groupLabel": "Rendering"
+                    }],
+                    "type": "table"
+                },
+                "numericValue": 2007.0239999999997
+            },
+            "first-contentful-paint":
+            {
+                "id": "first-contentful-paint",
+                "title": "First Contentful Paint",
+                "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more](https://web.dev/first-contentful-paint).",
+                "score": 0.47,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "4.1\u00a0s",
+                "numericValue": 4121
+            },
+            "uses-webp-images":
+            {
+                "id": "uses-webp-images",
+                "title": "Serve images in next-gen formats",
+                "description": "Image formats like JPEG 2000, JPEG XR, and WebP often provide better compression than PNG or JPEG, which means faster downloads and less data consumption. [Learn more](https://web.dev/uses-webp-images).",
+                "score": 0.48,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "Potential savings of 257\u00a0KB",
+                "details":
+                {
+                    "type": "opportunity",
+                    "items": [
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/default/files/customer%20experience.png",
+                        "fromProtocol": true,
+                        "isCrossOrigin": false,
+                        "totalBytes": 108769,
+                        "wastedBytes": 102805
+                    },
+                    {
+                        "isCrossOrigin": false,
+                        "totalBytes": 69068,
+                        "wastedBytes": 59632,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/3%20Proven%20ways%20customer%20acquisition_2.png",
+                        "fromProtocol": true
+                    },
+                    {
+                        "totalBytes": 48520,
+                        "isCrossOrigin": false,
+                        "wastedBytes": 43822,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/insight_promo_0.png",
+                        "fromProtocol": true
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/default/files/3_proven_ways_blue.png",
+                        "fromProtocol": true,
+                        "totalBytes": 39855,
+                        "isCrossOrigin": false,
+                        "wastedBytes": 35169
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/default/files/Paper_Ostrich_InSand.jpg",
+                        "fromProtocol": true,
+                        "isCrossOrigin": false,
+                        "totalBytes": 17166,
+                        "wastedBytes": 11978
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/default/files/McCartney%20%26%20Stone_0.png",
+                        "fromProtocol": true,
+                        "isCrossOrigin": false,
+                        "totalBytes": 13783,
+                        "wastedBytes": 9971
+                    }],
+                    "overallSavingsBytes": 263377,
+                    "overallSavingsMs": 900,
+                    "headings": [
+                    {
+                        "valueType": "thumbnail",
+                        "key": "url"
+                    },
+                    {
+                        "key": "url",
+                        "valueType": "url",
+                        "label": "URL"
+                    },
+                    {
+                        "key": "totalBytes",
+                        "valueType": "bytes",
+                        "label": "Size"
+                    },
+                    {
+                        "label": "Potential Savings",
+                        "key": "wastedBytes",
+                        "valueType": "bytes"
+                    }]
+                },
+                "warnings": [],
+                "numericValue": 900
+            },
+            "diagnostics":
+            {
+                "id": "diagnostics",
+                "title": "Diagnostics",
+                "description": "Collection of useful page vitals.",
+                "score": null,
+                "scoreDisplayMode": "informative",
+                "details":
+                {
+                    "type": "debugdata",
+                    "items": [
+                    {
+                        "numTasksOver500ms": 0,
+                        "maxServerLatency": null,
+                        "numScripts": 11,
+                        "numStylesheets": 16,
+                        "numTasksOver100ms": 1,
+                        "throughput": 39934104567.06928,
+                        "numTasksOver25ms": 4,
+                        "numTasksOver50ms": 2,
+                        "numRequests": 55,
+                        "totalTaskTime": 501.7559999999987,
+                        "mainDocumentTransferSize": 39412,
+                        "totalByteWeight": 714422,
+                        "numTasks": 589,
+                        "numTasksOver10ms": 9,
+                        "rtt": 0.00033413588324807613,
+                        "numFonts": 1,
+                        "maxRtt": 0.00033413588324807613
+                    }]
+                }
+            },
+            "critical-request-chains":
+            {
+                "id": "critical-request-chains",
+                "title": "Avoid chaining critical requests",
+                "description": "The Critical Request Chains below show you what resources are loaded with a high priority. Consider reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load. [Learn more](https://web.dev/critical-request-chains).",
+                "score": null,
+                "scoreDisplayMode": "informative",
+                "displayValue": "26 chains found",
+                "details":
+                {
+                    "chains":
+                    {
+                        "DF1AB9D0E23CC9580189BEFCBC8708EA":
+                        {
+                            "request":
+                            {
+                                "startTime": 790877.415443,
+                                "transferSize": 39412,
+                                "url": "https://www.marketreach.co.uk//",
+                                "responseReceivedTime": 790877.49682,
+                                "endTime": 790877.49683
+                            },
+                            "children":
+                            {
+                                "23.24":
+                                {
+                                    "request":
+                                    {
+                                        "startTime": 790877.527882,
+                                        "transferSize": 862,
+                                        "url": "https://www.marketreach.co.uk/modules/search/search.css?q6bh9q",
+                                        "responseReceivedTime": 790877.8584189999,
+                                        "endTime": 790877.858422
+                                    }
+                                },
+                                "23.26":
+                                {
+                                    "request":
+                                    {
+                                        "endTime": 790877.564465,
+                                        "startTime": 790877.528521,
+                                        "transferSize": 749,
+                                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/video_filter/video_filter.css?q6bh9q",
+                                        "responseReceivedTime": 790877.5644619999
+                                    }
+                                },
+                                "23.9":
+                                {
+                                    "request":
+                                    {
+                                        "transferSize": 92736,
+                                        "url": "https://tags.tiqcdn.com/utag/royalmail/marketreach/prod/utag.js?q6bh9q",
+                                        "responseReceivedTime": 790877.5541139999,
+                                        "endTime": 790877.554117,
+                                        "startTime": 790877.511955
+                                    }
+                                },
+                                "23.43":
+                                {
+                                    "request":
+                                    {
+                                        "transferSize": 37865,
+                                        "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js",
+                                        "responseReceivedTime": 790877.656848,
+                                        "endTime": 790877.656852,
+                                        "startTime": 790877.633
+                                    }
+                                },
+                                "23.22":
+                                {
+                                    "request":
+                                    {
+                                        "transferSize": 828,
+                                        "url": "https://www.marketreach.co.uk/sites/all/modules/features/mailmen_tools_page/vendors/yu2fvl/dist/jquery.yu2fvl.css?q6bh9q",
+                                        "responseReceivedTime": 790877.923428,
+                                        "endTime": 790877.92343,
+                                        "startTime": 790877.527437
+                                    }
+                                },
+                                "23.7":
+                                {
+                                    "request":
+                                    {
+                                        "startTime": 790877.511362,
+                                        "transferSize": 1772,
+                                        "url": "https://www.marketreach.co.uk/misc/jquery.once.js?v=1.2",
+                                        "responseReceivedTime": 790877.59976,
+                                        "endTime": 790877.599763
+                                    }
+                                },
+                                "23.16":
+                                {
+                                    "request":
+                                    {
+                                        "endTime": 790877.618495,
+                                        "startTime": 790877.526058,
+                                        "transferSize": 1015,
+                                        "url": "https://www.marketreach.co.uk/modules/system/system.messages.css?q6bh9q",
+                                        "responseReceivedTime": 790877.618492
+                                    }
+                                },
+                                "23.27":
+                                {
+                                    "request":
+                                    {
+                                        "endTime": 790877.62666,
+                                        "startTime": 790877.528775,
+                                        "transferSize": 938,
+                                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/views/css/views.css?q6bh9q",
+                                        "responseReceivedTime": 790877.626658
+                                    }
+                                },
+                                "23.41":
+                                {
+                                    "request":
+                                    {
+                                        "endTime": 790877.610077,
+                                        "startTime": 790877.55693,
+                                        "transferSize": 2622,
+                                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/js/vendor/imagesloaded.pkgd.min.js?cb=q6bh9q",
+                                        "responseReceivedTime": 790877.610075
+                                    }
+                                },
+                                "23.5":
+                                {
+                                    "request":
+                                    {
+                                        "startTime": 790877.510651,
+                                        "transferSize": 35473,
+                                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/jquery_update/replace/jquery/2.2/jquery.min.js?v=2.2.4",
+                                        "responseReceivedTime": 790877.598521,
+                                        "endTime": 790877.598525
+                                    }
+                                },
+                                "23.42":
+                                {
+                                    "request":
+                                    {
+                                        "endTime": 790877.672909,
+                                        "startTime": 790877.611443,
+                                        "transferSize": 9154,
+                                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/js/vendor/masonry.pkgd.min.js?cb=q6bh9q",
+                                        "responseReceivedTime": 790877.672906
+                                    }
+                                },
+                                "23.19":
+                                {
+                                    "request":
+                                    {
+                                        "transferSize": 1633,
+                                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?q6bh9q",
+                                        "responseReceivedTime": 790877.636225,
+                                        "endTime": 790877.636227,
+                                        "startTime": 790877.526745
+                                    }
+                                },
+                                "23.4":
+                                {
+                                    "request":
+                                    {
+                                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/ctools/css/ctools.css?q6bh9q",
+                                        "responseReceivedTime": 790877.625437,
+                                        "endTime": 790877.625438,
+                                        "startTime": 790877.510303,
+                                        "transferSize": 874
+                                    }
+                                },
+                                "23.3":
+                                {
+                                    "request":
+                                    {
+                                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/date/date_api/date.css?q6bh9q",
+                                        "responseReceivedTime": 790877.566438,
+                                        "endTime": 790877.56644,
+                                        "startTime": 790877.510059,
+                                        "transferSize": 1951
+                                    }
+                                },
+                                "23.25":
+                                {
+                                    "request":
+                                    {
+                                        "url": "https://www.marketreach.co.uk/modules/user/user.css?q6bh9q",
+                                        "responseReceivedTime": 790877.653259,
+                                        "endTime": 790877.65326,
+                                        "startTime": 790877.528117,
+                                        "transferSize": 1371
+                                    }
+                                },
+                                "23.21":
+                                {
+                                    "request":
+                                    {
+                                        "startTime": 790877.527194,
+                                        "transferSize": 827,
+                                        "url": "https://www.marketreach.co.uk/sites/all/modules/features/mailmen_seo/mailmen_seo.css?q6bh9q",
+                                        "responseReceivedTime": 790877.635635,
+                                        "endTime": 790877.635638
+                                    }
+                                },
+                                "23.15":
+                                {
+                                    "request":
+                                    {
+                                        "endTime": 790877.652732,
+                                        "startTime": 790877.525875,
+                                        "transferSize": 1348,
+                                        "url": "https://www.marketreach.co.uk/modules/system/system.menus.css?q6bh9q",
+                                        "responseReceivedTime": 790877.6527300001
+                                    }
+                                },
+                                "23.49":
+                                {
+                                    "request":
+                                    {
+                                        "startTime": 790878.088714,
+                                        "transferSize": 15738,
+                                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/fonts/HelveticaNeueLTStd-BlkCn.woff",
+                                        "responseReceivedTime": 790878.1687579999,
+                                        "endTime": 790878.16876
+                                    }
+                                },
+                                "23.20":
+                                {
+                                    "request":
+                                    {
+                                        "url": "https://www.marketreach.co.uk/modules/field/theme/field.css?q6bh9q",
+                                        "responseReceivedTime": 790877.728941,
+                                        "endTime": 790877.728942,
+                                        "startTime": 790877.527011,
+                                        "transferSize": 863
+                                    }
+                                },
+                                "23.23":
+                                {
+                                    "request":
+                                    {
+                                        "endTime": 790877.989337,
+                                        "startTime": 790877.527619,
+                                        "transferSize": 730,
+                                        "url": "https://www.marketreach.co.uk/modules/node/node.css?q6bh9q",
+                                        "responseReceivedTime": 790877.9893359999
+                                    }
+                                },
+                                "23.29":
+                                {
+                                    "request":
+                                    {
+                                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/panels/css/panels.css?q6bh9q",
+                                        "responseReceivedTime": 790877.8654400001,
+                                        "endTime": 790877.865442,
+                                        "startTime": 790877.529009,
+                                        "transferSize": 963
+                                    }
+                                },
+                                "23.44":
+                                {
+                                    "request":
+                                    {
+                                        "endTime": 790877.819748,
+                                        "startTime": 790877.664339,
+                                        "transferSize": 29743,
+                                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/js/app.js?cb=q6bh9q",
+                                        "responseReceivedTime": 790877.819744
+                                    }
+                                },
+                                "23.8":
+                                {
+                                    "request":
+                                    {
+                                        "startTime": 790877.511683,
+                                        "transferSize": 8528,
+                                        "url": "https://www.marketreach.co.uk/misc/drupal.js?q6bh9q",
+                                        "responseReceivedTime": 790877.624865,
+                                        "endTime": 790877.624869
+                                    }
+                                },
+                                "23.6":
+                                {
+                                    "request":
+                                    {
+                                        "transferSize": 4945,
+                                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/jquery_update/replace/jquery-migrate/1/jquery-migrate.min.js?v=1",
+                                        "responseReceivedTime": 790877.608548,
+                                        "endTime": 790877.608552,
+                                        "startTime": 790877.511036
+                                    }
+                                },
+                                "23.17":
+                                {
+                                    "request":
+                                    {
+                                        "startTime": 790877.526349,
+                                        "transferSize": 1964,
+                                        "url": "https://www.marketreach.co.uk/modules/system/system.theme.css?q6bh9q",
+                                        "responseReceivedTime": 790877.9886810001,
+                                        "endTime": 790877.988685
+                                    }
+                                },
+                                "23.2":
+                                {
+                                    "request":
+                                    {
+                                        "transferSize": 2673,
+                                        "url": "https://www.marketreach.co.uk/modules/system/system.base.css?q6bh9q",
+                                        "responseReceivedTime": 790877.62701,
+                                        "endTime": 790877.627011,
+                                        "startTime": 790877.509846
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "longestChain":
+                    {
+                        "transferSize": 15738,
+                        "duration": 753.3169999951497,
+                        "length": 2
+                    },
+                    "type": "criticalrequestchain"
+                }
+            },
+            "dom-size":
+            {
+                "id": "dom-size",
+                "title": "Avoids an excessive DOM size",
+                "description": "A large DOM will increase memory usage, cause longer [style calculations](https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations), and produce costly [layout reflows](https://developers.google.com/speed/articles/reflow). [Learn more](https://web.dev/dom-size).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "364 elements",
+                "details":
+                {
+                    "type": "table",
+                    "items": [
+                    {
+                        "value": "364",
+                        "statistic": "Total DOM Elements"
+                    },
+                    {
+                        "value": "12",
+                        "element":
+                        {
+                            "type": "code",
+                            "value": "<a href=\"/how-mail-can-help/business-mail\" class=\"\">"
+                        },
+                        "statistic": "Maximum DOM Depth"
+                    },
+                    {
+                        "value": "15",
+                        "statistic": "Maximum Child Elements",
+                        "element":
+                        {
+                            "type": "code",
+                            "value": "<form method=\"post\" data-eloqua-signup=\"\">"
+                        }
+                    }],
+                    "headings": [
+                    {
+                        "key": "statistic",
+                        "itemType": "text",
+                        "text": "Statistic"
+                    },
+                    {
+                        "text": "Element",
+                        "itemType": "code",
+                        "key": "element"
+                    },
+                    {
+                        "text": "Value",
+                        "key": "value",
+                        "itemType": "numeric"
+                    }]
+                },
+                "numericValue": 364
+            },
+            "uses-rel-preload":
+            {
+                "id": "uses-rel-preload",
+                "title": "Preload key requests",
+                "description": "Consider using `<link rel=preload>` to prioritize fetching resources that are currently requested later in page load. [Learn more](https://web.dev/uses-rel-preload).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "details":
+                {
+                    "headings": [],
+                    "type": "opportunity",
+                    "items": [],
+                    "overallSavingsMs": 0
+                },
+                "numericValue": 0
+            },
+            "performance-budget":
+            {
+                "id": "performance-budget",
+                "title": "Performance budget",
+                "description": "Keep the quantity and size of network requests under the targets set by the provided performance budget. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/budgets).",
+                "score": null,
+                "scoreDisplayMode": "notApplicable"
+            },
+            "unminified-javascript":
+            {
+                "id": "unminified-javascript",
+                "title": "Minify JavaScript",
+                "description": "Minifying JavaScript files can reduce payload sizes and script parse time. [Learn more](https://web.dev/unminified-javascript).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "Potential savings of 6\u00a0KB",
+                "details":
+                {
+                    "headings": [
+                    {
+                        "key": "url",
+                        "valueType": "url",
+                        "label": "URL"
+                    },
+                    {
+                        "key": "totalBytes",
+                        "valueType": "bytes",
+                        "label": "Size"
+                    },
+                    {
+                        "key": "wastedBytes",
+                        "valueType": "bytes",
+                        "label": "Potential Savings"
+                    }],
+                    "type": "opportunity",
+                    "items": [
+                    {
+                        "totalBytes": 8528,
+                        "wastedBytes": 5748,
+                        "wastedPercent": 67.40194866214947,
+                        "url": "https://www.marketreach.co.uk/misc/drupal.js?q6bh9q"
+                    }],
+                    "overallSavingsBytes": 5748,
+                    "overallSavingsMs": 0
+                },
+                "warnings": [],
+                "numericValue": 0
+            },
+            "redirects":
+            {
+                "id": "redirects",
+                "title": "Avoid multiple page redirects",
+                "description": "Redirects introduce additional delays before the page can be loaded. [Learn more](https://web.dev/redirects).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "details":
+                {
+                    "items": [],
+                    "type": "opportunity",
+                    "overallSavingsMs": 0,
+                    "headings": []
+                },
+                "numericValue": 0
+            },
+            "user-timings":
+            {
+                "id": "user-timings",
+                "title": "User Timing marks and measures",
+                "description": "Consider instrumenting your app with the User Timing API to measure your app's real-world performance during key user experiences. [Learn more](https://web.dev/user-timings).",
+                "score": null,
+                "scoreDisplayMode": "notApplicable",
+                "details":
+                {
+                    "headings": [],
+                    "type": "table",
+                    "items": []
+                }
+            },
+            "first-meaningful-paint":
+            {
+                "id": "first-meaningful-paint",
+                "title": "First Meaningful Paint",
+                "description": "First Meaningful Paint measures when the primary content of a page is visible. [Learn more](https://web.dev/first-meaningful-paint).",
+                "score": 0.38,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "4.5\u00a0s",
+                "numericValue": 4541
+            },
+            "resource-summary":
+            {
+                "id": "resource-summary",
+                "title": "Keep request counts low and transfer sizes small",
+                "description": "To set budgets for the quantity and size of page resources, add a budget.json file. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/budgets).",
+                "score": null,
+                "scoreDisplayMode": "informative",
+                "displayValue": "55 requests \u2022 698 KB",
+                "details":
+                {
+                    "headings": [
+                    {
+                        "itemType": "text",
+                        "key": "label",
+                        "text": "Resource Type"
+                    },
+                    {
+                        "itemType": "numeric",
+                        "key": "requestCount",
+                        "text": "Requests"
+                    },
+                    {
+                        "key": "size",
+                        "itemType": "bytes",
+                        "text": "Transfer Size"
+                    }],
+                    "type": "table",
+                    "items": [
+                    {
+                        "resourceType": "total",
+                        "label": "Total",
+                        "size": 714422,
+                        "requestCount": 55
+                    },
+                    {
+                        "resourceType": "image",
+                        "label": "Image",
+                        "size": 384518,
+                        "requestCount": 23
+                    },
+                    {
+                        "resourceType": "script",
+                        "label": "Script",
+                        "size": 249948,
+                        "requestCount": 11
+                    },
+                    {
+                        "resourceType": "document",
+                        "label": "Document",
+                        "size": 42847,
+                        "requestCount": 2
+                    },
+                    {
+                        "requestCount": 16,
+                        "resourceType": "stylesheet",
+                        "label": "Stylesheet",
+                        "size": 19589
+                    },
+                    {
+                        "requestCount": 1,
+                        "resourceType": "font",
+                        "label": "Font",
+                        "size": 15738
+                    },
+                    {
+                        "resourceType": "other",
+                        "label": "Other",
+                        "size": 1782,
+                        "requestCount": 2
+                    },
+                    {
+                        "label": "Media",
+                        "size": 0,
+                        "requestCount": 0,
+                        "resourceType": "media"
+                    },
+                    {
+                        "resourceType": "third-party",
+                        "label": "Third-party",
+                        "size": 165045,
+                        "requestCount": 10
+                    }]
+                }
+            },
+            "efficient-animated-content":
+            {
+                "id": "efficient-animated-content",
+                "title": "Use video formats for animated content",
+                "description": "Large GIFs are inefficient for delivering animated content. Consider using MPEG4/WebM videos for animations and PNG/WebP for static images instead of GIF to save network bytes. [Learn more](https://web.dev/efficient-animated-content)",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "details":
+                {
+                    "type": "opportunity",
+                    "items": [],
+                    "overallSavingsBytes": 0,
+                    "overallSavingsMs": 0,
+                    "headings": []
+                },
+                "numericValue": 0
+            },
+            "final-screenshot":
+            {
+                "id": "final-screenshot",
+                "title": "Final Screenshot",
+                "description": "The last screenshot captured of the pageload.",
+                "score": null,
+                "scoreDisplayMode": "informative",
+                "details":
+                {
+                    "type": "screenshot",
+                    "timing": 999,
+                    "timestamp": 790878413598,
+                    "data": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAH0ATgDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAj/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AKpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//9k="
+                }
+            },
+            "metrics":
+            {
+                "id": "metrics",
+                "title": "Metrics",
+                "description": "Collects all available metrics.",
+                "score": null,
+                "scoreDisplayMode": "error",
+                "errorMessage": "Chrome didn't collect any screenshots during the page load. Please make sure there is content visible on the page, and then try re-running Lighthouse. (SPEEDINDEX_OF_ZERO)"
+            },
+            "time-to-first-byte":
+            {
+                "id": "time-to-first-byte",
+                "title": "Server response times are low (TTFB)",
+                "description": "Time To First Byte identifies the time at which your server sends a response. [Learn more](https://web.dev/time-to-first-byte).",
+                "score": 1,
+                "scoreDisplayMode": "binary",
+                "displayValue": "Root document took 80\u00a0ms",
+                "details":
+                {
+                    "headings": [],
+                    "items": [],
+                    "type": "opportunity",
+                    "overallSavingsMs": -517.623
+                },
+                "numericValue": 82.377
+            },
+            "render-blocking-resources":
+            {
+                "id": "render-blocking-resources",
+                "title": "Eliminate render-blocking resources",
+                "description": "Resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles. [Learn more](https://web.dev/render-blocking-resources).",
+                "score": 0.47,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "Potential savings of 1,020\u00a0ms",
+                "details":
+                {
+                    "items": [
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/jquery_update/replace/jquery/2.2/jquery.min.js?v=2.2.4",
+                        "totalBytes": 35473,
+                        "wastedMs": 1380
+                    },
+                    {
+                        "wastedMs": 630,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/jquery_update/replace/jquery-migrate/1/jquery-migrate.min.js?v=1",
+                        "totalBytes": 4945
+                    },
+                    {
+                        "wastedMs": 480,
+                        "url": "https://www.marketreach.co.uk/misc/jquery.once.js?v=1.2",
+                        "totalBytes": 1772
+                    },
+                    {
+                        "wastedMs": 480,
+                        "url": "https://www.marketreach.co.uk/misc/drupal.js?q6bh9q",
+                        "totalBytes": 8528
+                    },
+                    {
+                        "wastedMs": 1980,
+                        "url": "https://tags.tiqcdn.com/utag/royalmail/marketreach/prod/utag.js?q6bh9q",
+                        "totalBytes": 92736
+                    }],
+                    "type": "opportunity",
+                    "overallSavingsMs": 1020,
+                    "headings": [
+                    {
+                        "valueType": "url",
+                        "label": "URL",
+                        "key": "url"
+                    },
+                    {
+                        "key": "totalBytes",
+                        "valueType": "bytes",
+                        "label": "Size"
+                    },
+                    {
+                        "key": "wastedMs",
+                        "valueType": "timespanMs",
+                        "label": "Potential Savings"
+                    }]
+                },
+                "numericValue": 1020
+            },
+            "uses-text-compression":
+            {
+                "id": "uses-text-compression",
+                "title": "Enable text compression",
+                "description": "Text-based resources should be served with compression (gzip, deflate or brotli) to minimize total network bytes. [Learn more](https://web.dev/uses-text-compression).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "details":
+                {
+                    "items": [],
+                    "type": "opportunity",
+                    "overallSavingsBytes": 0,
+                    "overallSavingsMs": 0,
+                    "headings": []
+                },
+                "numericValue": 0
+            },
+            "uses-optimized-images":
+            {
+                "id": "uses-optimized-images",
+                "title": "Efficiently encode images",
+                "description": "Optimized images load faster and consume less cellular data. [Learn more](https://web.dev/uses-optimized-images).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "details":
+                {
+                    "overallSavingsMs": 0,
+                    "headings": [],
+                    "type": "opportunity",
+                    "items": [],
+                    "overallSavingsBytes": 0
+                },
+                "warnings": [],
+                "numericValue": 0
+            },
+            "network-requests":
+            {
+                "id": "network-requests",
+                "title": "Network Requests",
+                "description": "Lists the network requests that were made during page load.",
+                "score": null,
+                "scoreDisplayMode": "informative",
+                "details":
+                {
+                    "headings": [
+                    {
+                        "key": "url",
+                        "itemType": "url",
+                        "text": "URL"
+                    },
+                    {
+                        "key": "startTime",
+                        "itemType": "ms",
+                        "text": "Start Time",
+                        "granularity": 1
+                    },
+                    {
+                        "key": "endTime",
+                        "itemType": "ms",
+                        "text": "End Time",
+                        "granularity": 1
+                    },
+                    {
+                        "key": "transferSize",
+                        "itemType": "bytes",
+                        "text": "Transfer Size",
+                        "displayUnit": "kb",
+                        "granularity": 1
+                    },
+                    {
+                        "text": "Resource Size",
+                        "displayUnit": "kb",
+                        "granularity": 1,
+                        "key": "resourceSize",
+                        "itemType": "bytes"
+                    },
+                    {
+                        "key": "statusCode",
+                        "itemType": "text",
+                        "text": "Status Code"
+                    },
+                    {
+                        "key": "mimeType",
+                        "itemType": "text",
+                        "text": "MIME Type"
+                    },
+                    {
+                        "itemType": "text",
+                        "key": "resourceType",
+                        "text": "Resource Type"
+                    }],
+                    "items": [
+                    {
+                        "resourceType": "Document",
+                        "mimeType": "text/html",
+                        "endTime": 81.3869999255985,
+                        "resourceSize": 158194,
+                        "startTime": 0,
+                        "transferSize": 39412,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk//"
+                    },
+                    {
+                        "resourceSize": 5428,
+                        "endTime": 211.56799991149455,
+                        "startTime": 94.40299996640533,
+                        "transferSize": 2673,
+                        "url": "https://www.marketreach.co.uk/modules/system/system.base.css?q6bh9q",
+                        "statusCode": 200,
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css"
+                    },
+                    {
+                        "resourceSize": 3733,
+                        "endTime": 150.9969999315217,
+                        "startTime": 94.61599995847791,
+                        "transferSize": 1951,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/date/date_api/date.css?q6bh9q",
+                        "statusCode": 200,
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css"
+                    },
+                    {
+                        "startTime": 94.85999995376915,
+                        "transferSize": 874,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/ctools/css/ctools.css?q6bh9q",
+                        "statusCode": 200,
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "resourceSize": 509,
+                        "endTime": 209.99499992467463
+                    },
+                    {
+                        "resourceType": "Script",
+                        "mimeType": "application/x-javascript",
+                        "endTime": 183.0820000031963,
+                        "resourceSize": 85578,
+                        "startTime": 95.20799992606044,
+                        "transferSize": 35473,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/jquery_update/replace/jquery/2.2/jquery.min.js?v=2.2.4",
+                        "statusCode": 200
+                    },
+                    {
+                        "resourceType": "Script",
+                        "mimeType": "application/x-javascript",
+                        "endTime": 193.1089999852702,
+                        "resourceSize": 10057,
+                        "startTime": 95.59299994725734,
+                        "transferSize": 4945,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/jquery_update/replace/jquery-migrate/1/jquery-migrate.min.js?v=1",
+                        "statusCode": 200
+                    },
+                    {
+                        "mimeType": "application/x-javascript",
+                        "resourceSize": 2974,
+                        "endTime": 184.32000000029802,
+                        "startTime": 95.91899998486042,
+                        "transferSize": 1772,
+                        "url": "https://www.marketreach.co.uk/misc/jquery.once.js?v=1.2",
+                        "statusCode": 200,
+                        "resourceType": "Script"
+                    },
+                    {
+                        "resourceType": "Script",
+                        "mimeType": "application/x-javascript",
+                        "resourceSize": 20219,
+                        "endTime": 209.42600001581013,
+                        "startTime": 96.23999998439103,
+                        "transferSize": 8528,
+                        "url": "https://www.marketreach.co.uk/misc/drupal.js?q6bh9q",
+                        "statusCode": 200
+                    },
+                    {
+                        "resourceSize": 344219,
+                        "endTime": 138.6739999288693,
+                        "startTime": 96.51199996005744,
+                        "transferSize": 92736,
+                        "url": "https://tags.tiqcdn.com/utag/royalmail/marketreach/prod/utag.js?q6bh9q",
+                        "statusCode": 200,
+                        "resourceType": "Script",
+                        "mimeType": "text/javascript"
+                    },
+                    {
+                        "mimeType": "image/png",
+                        "endTime": 216.09699993859977,
+                        "resourceSize": 5606,
+                        "startTime": 97.19399991445243,
+                        "transferSize": 6179,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/img/marketreach.png",
+                        "statusCode": 200,
+                        "resourceType": "Image"
+                    },
+                    {
+                        "startTime": 97.35299996100366,
+                        "transferSize": 900,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/img/phone-dark.png",
+                        "statusCode": 200,
+                        "resourceType": "Image",
+                        "mimeType": "image/png",
+                        "resourceSize": 328,
+                        "endTime": 139.59799997974187
+                    },
+                    {
+                        "mimeType": "image/png",
+                        "endTime": 312.99100001342595,
+                        "resourceSize": 652,
+                        "startTime": 258.89399996958673,
+                        "transferSize": 1223,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/img/search.png",
+                        "resourceType": "Image"
+                    },
+                    {
+                        "endTime": 377.01499997638166,
+                        "resourceSize": 707,
+                        "startTime": 314.0639999182895,
+                        "transferSize": 1279,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/img/headline-border.jpg",
+                        "resourceType": "Image",
+                        "mimeType": "image/jpeg"
+                    },
+                    {
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "resourceSize": 2035,
+                        "endTime": 237.2889999533072,
+                        "startTime": 110.43200001586229,
+                        "transferSize": 1348,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/modules/system/system.menus.css?q6bh9q"
+                    },
+                    {
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/modules/system/system.messages.css?q6bh9q",
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "endTime": 203.05199990980327,
+                        "resourceSize": 961,
+                        "startTime": 110.61500001233071,
+                        "transferSize": 1015
+                    },
+                    {
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "endTime": 573.2419999549165,
+                        "resourceSize": 3711,
+                        "startTime": 110.90600001625717,
+                        "transferSize": 1964,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/modules/system/system.theme.css?q6bh9q"
+                    },
+                    {
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "endTime": 220.7840000046417,
+                        "resourceSize": 3722,
+                        "startTime": 111.30200000479817,
+                        "transferSize": 1633,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?q6bh9q"
+                    },
+                    {
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "endTime": 313.49899992346764,
+                        "resourceSize": 550,
+                        "startTime": 111.56799993477762,
+                        "transferSize": 863,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/modules/field/theme/field.css?q6bh9q"
+                    },
+                    {
+                        "transferSize": 827,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/features/mailmen_seo/mailmen_seo.css?q6bh9q",
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "endTime": 220.19499994348735,
+                        "resourceSize": 415,
+                        "startTime": 111.75099993124604
+                    },
+                    {
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "endTime": 507.98699993174523,
+                        "resourceSize": 333,
+                        "startTime": 111.99399991892278,
+                        "transferSize": 828,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/features/mailmen_tools_page/vendors/yu2fvl/dist/jquery.yu2fvl.css?q6bh9q"
+                    },
+                    {
+                        "startTime": 112.17599990777671,
+                        "transferSize": 730,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/modules/node/node.css?q6bh9q",
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "endTime": 573.8939999137074,
+                        "resourceSize": 144
+                    },
+                    {
+                        "startTime": 112.438999931328,
+                        "transferSize": 862,
+                        "url": "https://www.marketreach.co.uk/modules/search/search.css?q6bh9q",
+                        "statusCode": 200,
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "resourceSize": 564,
+                        "endTime": 442.97899992670864
+                    },
+                    {
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/modules/user/user.css?q6bh9q",
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "endTime": 237.81700001563877,
+                        "resourceSize": 1827,
+                        "startTime": 112.67399997450411,
+                        "transferSize": 1371
+                    },
+                    {
+                        "startTime": 113.07799990754575,
+                        "transferSize": 749,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/video_filter/video_filter.css?q6bh9q",
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "endTime": 149.02199991047382,
+                        "resourceSize": 156
+                    },
+                    {
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "resourceSize": 707,
+                        "endTime": 211.21699991635978,
+                        "startTime": 113.33199997898191,
+                        "transferSize": 938,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/views/css/views.css?q6bh9q",
+                        "statusCode": 200
+                    },
+                    {
+                        "resourceType": "Stylesheet",
+                        "mimeType": "text/css",
+                        "endTime": 449.9989999458194,
+                        "resourceSize": 786,
+                        "startTime": 113.56600001454353,
+                        "transferSize": 963,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/panels/css/panels.css?q6bh9q"
+                    },
+                    {
+                        "resourceType": "Image",
+                        "mimeType": "image/jpeg",
+                        "resourceSize": 3637,
+                        "endTime": 483.37499995250255,
+                        "startTime": 378.07299999985844,
+                        "transferSize": 4210,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/Envelope2.jpg",
+                        "statusCode": 200
+                    },
+                    {
+                        "mimeType": "image/png",
+                        "resourceSize": 39855,
+                        "endTime": 486.1009999876842,
+                        "startTime": 409.07399996649474,
+                        "transferSize": 40427,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/3_proven_ways_blue.png",
+                        "resourceType": "Image"
+                    },
+                    {
+                        "endTime": 606.3359999097884,
+                        "resourceSize": 17166,
+                        "startTime": 484.3949999194592,
+                        "transferSize": 17741,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/Paper_Ostrich_InSand.jpg",
+                        "resourceType": "Image",
+                        "mimeType": "image/jpeg"
+                    },
+                    {
+                        "endTime": 597.942000022158,
+                        "resourceSize": 12694,
+                        "startTime": 486.9649999309331,
+                        "transferSize": 13270,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/PRO_4335_BusMail_Elephant_HR_1440x500px_v2.jpg",
+                        "resourceType": "Image",
+                        "mimeType": "image/jpeg"
+                    },
+                    {
+                        "resourceType": "Image",
+                        "mimeType": "image/png",
+                        "resourceSize": 23209,
+                        "endTime": 743.534000008367,
+                        "startTime": 662.4819999560714,
+                        "transferSize": 23783,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/PRO000000_RM_BrandQuilt.png"
+                    },
+                    {
+                        "resourceType": "Image",
+                        "mimeType": "image/png",
+                        "resourceSize": 332,
+                        "endTime": 792.4519999651238,
+                        "startTime": 663.4840000187978,
+                        "transferSize": 903,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/img/phone.png"
+                    },
+                    {
+                        "transferSize": 978,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/img/pen.png",
+                        "statusCode": 200,
+                        "resourceType": "Image",
+                        "mimeType": "image/png",
+                        "resourceSize": 407,
+                        "endTime": 745.1359999831766,
+                        "startTime": 663.6680000228807
+                    },
+                    {
+                        "resourceType": "Image",
+                        "mimeType": "image/jpeg",
+                        "resourceSize": 1186,
+                        "endTime": 729.0489999577403,
+                        "startTime": 663.8569999486208,
+                        "transferSize": 1760,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/img/twitter.jpg"
+                    },
+                    {
+                        "mimeType": "image/jpeg",
+                        "endTime": 728.5129999509081,
+                        "resourceSize": 2368,
+                        "startTime": 664.10499997437,
+                        "transferSize": 2942,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/img/youtube.jpg",
+                        "statusCode": 200,
+                        "resourceType": "Image"
+                    },
+                    {
+                        "endTime": 789.877999923192,
+                        "resourceSize": 1031,
+                        "startTime": 664.4610000075772,
+                        "transferSize": 1603,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/img/linkedin.jpg",
+                        "statusCode": 200,
+                        "resourceType": "Image",
+                        "mimeType": "image/jpeg"
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/js/vendor/imagesloaded.pkgd.min.js?cb=q6bh9q",
+                        "statusCode": 200,
+                        "resourceType": "Script",
+                        "mimeType": "application/x-javascript",
+                        "resourceSize": 5594,
+                        "endTime": 194.6339999558404,
+                        "startTime": 141.48699992801994,
+                        "transferSize": 2622
+                    },
+                    {
+                        "resourceType": "Script",
+                        "mimeType": "application/x-javascript",
+                        "endTime": 257.4659999227151,
+                        "resourceSize": 24103,
+                        "startTime": 195.9999999962747,
+                        "transferSize": 9154,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/js/vendor/masonry.pkgd.min.js?cb=q6bh9q"
+                    },
+                    {
+                        "startTime": 217.5569999963045,
+                        "transferSize": 37865,
+                        "statusCode": 200,
+                        "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js",
+                        "resourceType": "Script",
+                        "mimeType": "application/javascript",
+                        "resourceSize": 115316,
+                        "endTime": 241.40900000929832
+                    },
+                    {
+                        "resourceType": "Script",
+                        "mimeType": "application/x-javascript",
+                        "endTime": 404.30499997455627,
+                        "resourceSize": 99991,
+                        "startTime": 248.8959999755025,
+                        "transferSize": 29743,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/js/app.js?cb=q6bh9q"
+                    },
+                    {
+                        "resourceSize": 48520,
+                        "endTime": 781.2719999346882,
+                        "startTime": 669.995000003837,
+                        "transferSize": 49093,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/insight_promo_0.png",
+                        "resourceType": "Image",
+                        "mimeType": "image/png"
+                    },
+                    {
+                        "endTime": 872.6269999751821,
+                        "resourceSize": 108769,
+                        "startTime": 670.3749999869615,
+                        "transferSize": 109346,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/customer%20experience.png",
+                        "resourceType": "Image",
+                        "mimeType": "image/png"
+                    },
+                    {
+                        "resourceType": "Image",
+                        "mimeType": "image/png",
+                        "resourceSize": 69068,
+                        "endTime": 804.8909999197349,
+                        "startTime": 670.8769999677315,
+                        "transferSize": 69643,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/3%20Proven%20ways%20customer%20acquisition_2.png",
+                        "statusCode": 200
+                    },
+                    {
+                        "resourceType": "Image",
+                        "mimeType": "image/png",
+                        "endTime": 765.3939999872819,
+                        "resourceSize": 9071,
+                        "startTime": 671.6809999197721,
+                        "transferSize": 9643,
+                        "statusCode": 200,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/Movember_1.png"
+                    },
+                    {
+                        "transferSize": 14358,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/McCartney%20%26%20Stone_0.png",
+                        "statusCode": 200,
+                        "resourceType": "Image",
+                        "mimeType": "image/png",
+                        "endTime": 741.5809999220073,
+                        "resourceSize": 13783,
+                        "startTime": 672.0359999453649
+                    },
+                    {
+                        "mimeType": "image/jpeg",
+                        "endTime": 734.747999929823,
+                        "resourceSize": 12544,
+                        "startTime": 672.4789999425411,
+                        "transferSize": 13120,
+                        "url": "https://www.marketreach.co.uk/sites/default/files/IKEA_1.jpg",
+                        "statusCode": 200,
+                        "resourceType": "Image"
+                    },
+                    {
+                        "transferSize": 15738,
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/assets/fonts/HelveticaNeueLTStd-BlkCn.woff",
+                        "statusCode": 200,
+                        "resourceType": "Font",
+                        "mimeType": "font/woff",
+                        "endTime": 753.3169999951497,
+                        "resourceSize": 15132,
+                        "startTime": 673.2709999196231
+                    },
+                    {
+                        "resourceType": "Script",
+                        "mimeType": "text/javascript",
+                        "endTime": 827.9089999850839,
+                        "resourceSize": 82196,
+                        "startTime": 804.6169999288395,
+                        "transferSize": 26793,
+                        "url": "https://tags.tiqcdn.com/utag/royalmail/marketreach/prod/utag.899.js?utv=ut4.46.202002131050",
+                        "statusCode": 200
+                    },
+                    {
+                        "resourceType": "XHR",
+                        "mimeType": "application/json",
+                        "resourceSize": 368,
+                        "endTime": 1071.1009999504313,
+                        "startTime": 885.653999983333,
+                        "transferSize": 1180,
+                        "statusCode": 200,
+                        "url": "https://dpm.demdex.net/id?d_visid_ver=3.3.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=BB331CFE53309F560A490D45%40AdobeOrg&d_nsid=0&ts=1583758111844"
+                    },
+                    {
+                        "transferSize": 317,
+                        "url": "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=royalmail/marketreach/202003061554&cb=1583758111848",
+                        "statusCode": 200,
+                        "resourceType": "Script",
+                        "mimeType": "text/javascript",
+                        "resourceSize": 2,
+                        "endTime": 899.0529999136925,
+                        "startTime": 889.1709999879822
+                    },
+                    {
+                        "startTime": 1081.5449999645352,
+                        "transferSize": 3435,
+                        "url": "https://royalmail.demdex.net/dest5.html?d_nsid=undefined",
+                        "statusCode": 200,
+                        "resourceType": "Document",
+                        "mimeType": "text/html",
+                        "resourceSize": 6983,
+                        "endTime": 1713.0279999691993
+                    },
+                    {
+                        "endTime": 1107.0429999381304,
+                        "resourceSize": 0,
+                        "startTime": 1093.1009999476373,
+                        "transferSize": 602,
+                        "url": "https://cm.everesttech.net/cm/dd?d_uuid=61484038292114162163315602528146569477",
+                        "statusCode": 302
+                    },
+                    {
+                        "resourceType": "Image",
+                        "mimeType": "image/gif",
+                        "endTime": 1169.8859999887645,
+                        "resourceSize": 43,
+                        "startTime": 1093.4930000221357,
+                        "transferSize": 601,
+                        "url": "https://metrics.royalmail.com/b/ss/rmgroyalmailcom/1/JS-2.10.0/s48297665049133?AQB=1&ndh=1&pf=1&t=9%2F2%2F2020%205%3A48%3A32%201%20420&sdid=3A2EBA917E1B91BA-5E45B3565B92A6CC&mid=61507532158168079793317810612608059830&aamlh=9&ce=UTF-8&ns=royalmail&pageName=RM%20MS%20%3EMarketReach%20%3EHome&g=https%3A%2F%2Fwww.marketreach.co.uk%2F%2F&cc=GBP&ch=MarketReach&server=www.marketreach.co.uk&xact=1583758111591&events=event8%2Cevent36%3D0.874%2Cevent101%2Cevent102&aamb=6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y&h1=Home&h2=MarketReach%7CHome&c7=Home&c8=Home&c21=Business&v21=Business&c24=Fixed%20Web&v24=Fixed%20Web&c25=Home%20Page&v25=Home%20Page&v36=05%3A30&c38=%281%29%20Mon&v38=%281%29%20Mon&c39=en-gb&v39=09-03-2020&c41=RM%20MS%20%3EMarketReach%20%3EHome&v41=RM%20MS%20%3EMarketReach%20%3EHome&c42=MarketReach&v42=MarketReach&c43=1583758111591&v43=1583758111591&c44=Home%20Page&v44=Home%20Page&c45=Direct%20Traffic&c46=DT&v46=DT&c47=DT&v47=DT&c48=DT&v48=DT&v53=1583758111591&c70=1583758111591&v70=1583758111591&c73=%3C1%20sec&v73=%3C1%20sec&c75=www.marketreach.co.uk%2F%2F&v75=www.marketreach.co.uk%2F%2F&s=412x660&c=24&j=1.6&v=N&k=N&bw=412&bh=660&mcorgid=BB331CFE53309F560A490D45%40AdobeOrg&AQE=1",
+                        "statusCode": 200
+                    },
+                    {
+                        "resourceType": "Image",
+                        "mimeType": "image/gif",
+                        "resourceSize": 42,
+                        "endTime": 1265.6689999857917,
+                        "startTime": 1107.2229999117553,
+                        "transferSize": 915,
+                        "statusCode": 200,
+                        "url": "https://dpm.demdex.net/ibs:dpid=411&dpuuid=XmY7IAAAAeaIii3-"
+                    },
+                    {
+                        "mimeType": "image/gif",
+                        "endTime": 1237.730999942869,
+                        "resourceSize": 43,
+                        "startTime": 1172.4379999795929,
+                        "transferSize": 601,
+                        "url": "https://metrics.royalmail.com/b/ss/rmgroyalmailcom/1/JS-2.10.0/s41748324971549?AQB=1&ndh=1&pf=1&t=9%2F2%2F2020%205%3A48%3A32%201%20420&sdid=282895A850F716C7-3D1BA1F9AAE22F3C&mid=61507532158168079793317810612608059830&aamlh=9&ce=UTF-8&ns=royalmail&pageName=RM%20MS%20%3EMarketReach%20%3EHome&g=https%3A%2F%2Fwww.marketreach.co.uk%2F%2F&cc=GBP&ch=MarketReach&server=www.marketreach.co.uk&xact=1583758111591&events=event110%2Cevent101%2Cevent102&h1=Home&h2=MarketReach%7CHome&c7=Home&c8=Home&c21=Business&v21=Business&c24=Fixed%20Web&v24=Fixed%20Web&c25=Home%20Page&v25=Home%20Page&v36=05%3A30&c38=%281%29%20Mon&v38=%281%29%20Mon&c39=en-gb&v39=09-03-2020&c41=RM%20MS%20%3EMarketReach%20%3EHome&v41=RM%20MS%20%3EMarketReach%20%3EHome&c42=Cookie%20Consent%20Manager&v42=Cookie%20Consent%20Manager&c43=1583758111591&v43=1583758111591&c44=Explicit%20Consent%20View&v44=Explicit%20Consent%20View&c45=Direct%20Traffic&c46=DT&v46=DT&c47=DT&v47=DT&c48=DT&v48=DT&v53=1583758111591&c70=1583758111591&v70=1583758111591&c75=www.marketreach.co.uk%2F%2F&v75=www.marketreach.co.uk%2F%2F&pe=lnk_o&pev2=no%20link_name&s=412x660&c=24&j=1.6&v=N&k=N&bw=412&bh=660&mcorgid=BB331CFE53309F560A490D45%40AdobeOrg&AQE=1",
+                        "statusCode": 200,
+                        "resourceType": "Image"
+                    }],
+                    "type": "table"
+                },
+                "numericValue": 55
+            },
+            "uses-long-cache-ttl":
+            {
+                "id": "uses-long-cache-ttl",
+                "title": "Serve static assets with an efficient cache policy",
+                "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more](https://web.dev/uses-long-cache-ttl).",
+                "score": 0.62,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "3 resources found",
+                "details":
+                {
+                    "summary":
+                    {
+                        "wastedBytes": 91782.01070763501
+                    },
+                    "headings": [
+                    {
+                        "key": "url",
+                        "itemType": "url",
+                        "text": "URL"
+                    },
+                    {
+                        "key": "cacheLifetimeMs",
+                        "itemType": "ms",
+                        "text": "Cache TTL",
+                        "displayUnit": "duration"
+                    },
+                    {
+                        "itemType": "bytes",
+                        "key": "totalBytes",
+                        "text": "Size",
+                        "displayUnit": "kb",
+                        "granularity": 1
+                    }],
+                    "type": "table",
+                    "items": [
+                    {
+                        "totalBytes": 92736,
+                        "cacheHitProbability": 0.041666666666666664,
+                        "url": "https://tags.tiqcdn.com/utag/royalmail/marketreach/prod/utag.js?q6bh9q",
+                        "wastedBytes": 88872,
+                        "debugData":
+                        {
+                            "type": "debugdata",
+                            "max-age": 300
+                        },
+                        "cacheLifetimeMs": 300000
+                    },
+                    {
+                        "totalBytes": 317,
+                        "cacheHitProbability": 0.08333333333333333,
+                        "url": "https://tags.tiqcdn.com/utag/tiqapp/utag.v.js?a=royalmail/marketreach/202003061554&cb=1583758111848",
+                        "wastedBytes": 290.5833333333333,
+                        "debugData":
+                        {
+                            "type": "debugdata",
+                            "max-age": 600
+                        },
+                        "cacheLifetimeMs": 600000
+                    },
+                    {
+                        "url": "https://tags.tiqcdn.com/utag/royalmail/marketreach/prod/utag.899.js?utv=ut4.46.202002131050",
+                        "wastedBytes": 2619.4273743016756,
+                        "debugData":
+                        {
+                            "type": "debugdata",
+                            "max-age": 1296000
+                        },
+                        "cacheLifetimeMs": 1296000000,
+                        "totalBytes": 26793,
+                        "cacheHitProbability": 0.9022346368715084
+                    }]
+                },
+                "numericValue": 91782.01070763501
+            },
+            "max-potential-fid":
+            {
+                "id": "max-potential-fid",
+                "title": "Max Potential First Input Delay",
+                "description": "The maximum potential First Input Delay that your users could experience is the duration, in milliseconds, of the longest task. [Learn more](https://developers.google.com/web/updates/2018/05/first-input-delay).",
+                "score": 0.56,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "230\u00a0ms",
+                "numericValue": 232
+            },
+            "interactive":
+            {
+                "id": "interactive",
+                "title": "Time to Interactive",
+                "description": "Time to interactive is the amount of time it takes for the page to become fully interactive. [Learn more](https://web.dev/interactive).",
+                "score": 0.68,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "5.8\u00a0s",
+                "numericValue": 5758.5
+            },
+            "third-party-summary":
+            {
+                "id": "third-party-summary",
+                "title": "Reduce the impact of third-party code",
+                "description": "Third-party code can significantly impact load performance. Limit the number of redundant third-party providers and try to load third-party code after your page has primarily finished loading. [Learn more](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript/).",
+                "score": 0,
+                "scoreDisplayMode": "binary",
+                "displayValue": "Third-party code blocked the main thread for 260\u00a0ms",
+                "details":
+                {
+                    "summary":
+                    {
+                        "wastedBytes": 163843,
+                        "wastedMs": 263.26800000000003
+                    },
+                    "headings": [
+                    {
+                        "key": "entity",
+                        "itemType": "link",
+                        "text": "Third-Party"
+                    },
+                    {
+                        "key": "transferSize",
+                        "itemType": "bytes",
+                        "text": "Size",
+                        "granularity": 1
+                    },
+                    {
+                        "text": "Main-Thread Blocking Time",
+                        "granularity": 1,
+                        "itemType": "ms",
+                        "key": "blockingTime"
+                    }],
+                    "type": "table",
+                    "items": [
+                    {
+                        "mainThreadTime": 506.94800000000004,
+                        "transferSize": 119846,
+                        "blockingTime": 247.848,
+                        "entity":
+                        {
+                            "type": "link",
+                            "text": "Tealium",
+                            "url": "https://tealium.com/"
+                        }
+                    },
+                    {
+                        "entity":
+                        {
+                            "type": "link",
+                            "text": "Cloudflare CDN",
+                            "url": "https://cdnjs.com/"
+                        },
+                        "mainThreadTime": 89.98800000000001,
+                        "transferSize": 37865,
+                        "blockingTime": 15.420000000000002
+                    },
+                    {
+                        "transferSize": 6132,
+                        "blockingTime": 0,
+                        "entity":
+                        {
+                            "type": "link",
+                            "text": "Adobe Tag Manager",
+                            "url": "https://www.adobe.com/experience-platform/"
+                        },
+                        "mainThreadTime": 12.972
+                    }]
+                }
+            },
+            "screenshot-thumbnails":
+            {
+                "id": "screenshot-thumbnails",
+                "title": "Screenshot Thumbnails",
+                "description": "This is what the load of your site looked like.",
+                "score": null,
+                "scoreDisplayMode": "error",
+                "errorMessage": "Chrome didn't collect any screenshots during the page load. Please make sure there is content visible on the page, and then try re-running Lighthouse. (SPEEDINDEX_OF_ZERO)"
+            },
+            "network-rtt":
+            {
+                "id": "network-rtt",
+                "title": "Network Round Trip Times",
+                "description": "Network round trip times (RTT) have a large impact on performance. If the RTT to an origin is high, it's an indication that servers closer to the user could improve performance. [Learn more](https://hpbn.co/primer-on-latency-and-bandwidth/).",
+                "score": null,
+                "scoreDisplayMode": "informative",
+                "displayValue": "0\u00a0ms",
+                "details":
+                {
+                    "headings": [],
+                    "items": [],
+                    "type": "table"
+                },
+                "numericValue": 0
+            },
+            "main-thread-tasks":
+            {
+                "id": "main-thread-tasks",
+                "title": "Tasks",
+                "description": "Lists the toplevel main thread tasks that executed during page load.",
+                "score": null,
+                "scoreDisplayMode": "informative",
+                "details":
+                {
+                    "headings": [
+                    {
+                        "itemType": "ms",
+                        "key": "startTime",
+                        "text": "Start Time",
+                        "granularity": 1
+                    },
+                    {
+                        "key": "duration",
+                        "itemType": "ms",
+                        "text": "End Time",
+                        "granularity": 1
+                    }],
+                    "items": [
+                    {
+                        "startTime": 103.329,
+                        "duration": 6.587
+                    },
+                    {
+                        "duration": 14.763,
+                        "startTime": 118.676
+                    },
+                    {
+                        "duration": 85.771,
+                        "startTime": 595.459
+                    },
+                    {
+                        "duration": 20.56,
+                        "startTime": 687.121
+                    },
+                    {
+                        "duration": 115.972,
+                        "startTime": 710.893
+                    },
+                    {
+                        "startTime": 826.912,
+                        "duration": 11.129
+                    },
+                    {
+                        "duration": 23.193,
+                        "startTime": 846.997
+                    },
+                    {
+                        "startTime": 870.211,
+                        "duration": 5.673
+                    },
+                    {
+                        "startTime": 881.285,
+                        "duration": 38.483
+                    },
+                    {
+                        "duration": 37.83,
+                        "startTime": 923.269
+                    },
+                    {
+                        "startTime": 1090.822,
+                        "duration": 22.343
+                    },
+                    {
+                        "startTime": 1734.815,
+                        "duration": 6.365
+                    }],
+                    "type": "table"
+                },
+                "numericValue": 12
+            },
+            "font-display":
+            {
+                "id": "font-display",
+                "title": "All text remains visible during webfont loads",
+                "description": "Leverage the font-display CSS feature to ensure text is user-visible while webfonts are loading. [Learn more](https://web.dev/font-display).",
+                "score": 1,
+                "scoreDisplayMode": "binary",
+                "details":
+                {
+                    "items": [],
+                    "type": "table",
+                    "headings": []
+                },
+                "warnings": []
+            },
+            "first-contentful-paint-3g":
+            {
+                "id": "first-contentful-paint-3g",
+                "title": "First Contentful Paint (3G)",
+                "description": "First Contentful Paint 3G marks the time at which the first text or image is painted while on a 3G network. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/first-contentful-paint).",
+                "score": 0.25,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "7946\u00a0ms",
+                "numericValue": 7946
+            },
+            "total-blocking-time":
+            {
+                "id": "total-blocking-time",
+                "title": "Total Blocking Time",
+                "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds.",
+                "score": 0.98,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "180\u00a0ms",
+                "numericValue": 175.5
+            },
+            "estimated-input-latency":
+            {
+                "id": "estimated-input-latency",
+                "title": "Estimated Input Latency",
+                "description": "Estimated Input Latency is an estimate of how long your app takes to respond to user input, in milliseconds, during the busiest 5s window of page load. If your latency is higher than 50 ms, users may perceive your app as laggy. [Learn more](https://web.dev/estimated-input-latency).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "30\u00a0ms",
+                "numericValue": 30.733333333333334
+            },
+            "uses-rel-preconnect":
+            {
+                "id": "uses-rel-preconnect",
+                "title": "Preconnect to required origins",
+                "description": "Consider adding `preconnect` or `dns-prefetch` resource hints to establish early connections to important third-party origins. [Learn more](https://web.dev/uses-rel-preconnect).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "details":
+                {
+                    "overallSavingsMs": 0,
+                    "headings": [],
+                    "items": [],
+                    "type": "opportunity"
+                },
+                "warnings": [],
+                "numericValue": 0
+            },
+            "bootup-time":
+            {
+                "id": "bootup-time",
+                "title": "JavaScript execution time",
+                "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn more](https://web.dev/bootup-time).",
+                "score": 0.94,
+                "scoreDisplayMode": "numeric",
+                "displayValue": "1.1\u00a0s",
+                "details":
+                {
+                    "summary":
+                    {
+                        "wastedMs": 1053.8480000000002
+                    },
+                    "headings": [
+                    {
+                        "key": "url",
+                        "itemType": "url",
+                        "text": "URL"
+                    },
+                    {
+                        "key": "total",
+                        "itemType": "ms",
+                        "text": "Total CPU Time",
+                        "granularity": 1
+                    },
+                    {
+                        "key": "scripting",
+                        "itemType": "ms",
+                        "text": "Script Evaluation",
+                        "granularity": 1
+                    },
+                    {
+                        "key": "scriptParseCompile",
+                        "itemType": "ms",
+                        "text": "Script Parse",
+                        "granularity": 1
+                    }],
+                    "type": "table",
+                    "items": [
+                    {
+                        "scriptParseCompile": 7.04,
+                        "url": "Other",
+                        "total": 690.5840000000013,
+                        "scripting": 38.608
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/all/themes/mailmen/revamp/js/app.js?cb=q6bh9q",
+                        "total": 387.4080000000001,
+                        "scripting": 215.79200000000003,
+                        "scriptParseCompile": 8.132
+                    },
+                    {
+                        "total": 349.2440000000001,
+                        "scripting": 308.62800000000016,
+                        "scriptParseCompile": 26.232,
+                        "url": "https://tags.tiqcdn.com/utag/royalmail/marketreach/prod/utag.js?q6bh9q"
+                    },
+                    {
+                        "url": "https://www.marketreach.co.uk/sites/all/modules/contrib/jquery_update/replace/jquery/2.2/jquery.min.js?v=2.2.4",
+                        "total": 254.70400000000006,
+                        "scripting": 197.1800000000001,
+                        "scriptParseCompile": 6.419999999999999
+                    },
+                    {
+                        "url": "https://tags.tiqcdn.com/utag/royalmail/marketreach/prod/utag.899.js?utv=ut4.46.202002131050",
+                        "total": 156.95600000000002,
+                        "scripting": 149.984,
+                        "scriptParseCompile": 5.843999999999999
+                    },
+                    {
+                        "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js",
+                        "scripting": 82.24000000000001,
+                        "total": 89.98800000000001,
+                        "scriptParseCompile": 7.748
+                    }]
+                },
+                "numericValue": 1053.8480000000002
+            },
+            "unminified-css":
+            {
+                "id": "unminified-css",
+                "title": "Minify CSS",
+                "description": "Minifying CSS files can reduce network payload sizes. [Learn more](https://web.dev/unminified-css).",
+                "score": 1,
+                "scoreDisplayMode": "numeric",
+                "details":
+                {
+                    "overallSavingsMs": 0,
+                    "headings": [],
+                    "type": "opportunity",
+                    "items": [],
+                    "overallSavingsBytes": 0
+                },
+                "numericValue": 0
+            }
+        },
+        "categories":
+        {
+            "performance":
+            {
+                "id": "performance",
+                "title": "Performance",
+                "score": null,
+                "auditRefs": [
+                {
+                    "id": "first-contentful-paint",
+                    "weight": 3,
+                    "group": "metrics"
+                },
+                {
+                    "id": "first-meaningful-paint",
+                    "weight": 1,
+                    "group": "metrics"
+                },
+                {
+                    "id": "speed-index",
+                    "weight": 4,
+                    "group": "metrics"
+                },
+                {
+                    "id": "interactive",
+                    "weight": 5,
+                    "group": "metrics"
+                },
+                {
+                    "id": "first-cpu-idle",
+                    "weight": 2,
+                    "group": "metrics"
+                },
+                {
+                    "id": "max-potential-fid",
+                    "weight": 0,
+                    "group": "metrics"
+                },
+                {
+                    "id": "estimated-input-latency",
+                    "weight": 0
+                },
+                {
+                    "id": "total-blocking-time",
+                    "weight": 0
+                },
+                {
+                    "id": "render-blocking-resources",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "uses-responsive-images",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "offscreen-images",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "unminified-css",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "unminified-javascript",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "unused-css-rules",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "uses-optimized-images",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "uses-webp-images",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "uses-text-compression",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "uses-rel-preconnect",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "time-to-first-byte",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "redirects",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "uses-rel-preload",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "efficient-animated-content",
+                    "weight": 0,
+                    "group": "load-opportunities"
+                },
+                {
+                    "id": "total-byte-weight",
+                    "weight": 0,
+                    "group": "diagnostics"
+                },
+                {
+                    "id": "uses-long-cache-ttl",
+                    "weight": 0,
+                    "group": "diagnostics"
+                },
+                {
+                    "id": "dom-size",
+                    "weight": 0,
+                    "group": "diagnostics"
+                },
+                {
+                    "id": "critical-request-chains",
+                    "weight": 0,
+                    "group": "diagnostics"
+                },
+                {
+                    "id": "user-timings",
+                    "weight": 0,
+                    "group": "diagnostics"
+                },
+                {
+                    "id": "bootup-time",
+                    "weight": 0,
+                    "group": "diagnostics"
+                },
+                {
+                    "id": "mainthread-work-breakdown",
+                    "weight": 0,
+                    "group": "diagnostics"
+                },
+                {
+                    "id": "font-display",
+                    "weight": 0,
+                    "group": "diagnostics"
+                },
+                {
+                    "id": "performance-budget",
+                    "weight": 0,
+                    "group": "budgets"
+                },
+                {
+                    "id": "resource-summary",
+                    "weight": 0,
+                    "group": "diagnostics"
+                },
+                {
+                    "id": "third-party-summary",
+                    "weight": 0,
+                    "group": "diagnostics"
+                },
+                {
+                    "id": "network-requests",
+                    "weight": 0
+                },
+                {
+                    "id": "network-rtt",
+                    "weight": 0
+                },
+                {
+                    "id": "network-server-latency",
+                    "weight": 0
+                },
+                {
+                    "id": "main-thread-tasks",
+                    "weight": 0
+                },
+                {
+                    "id": "diagnostics",
+                    "weight": 0
+                },
+                {
+                    "id": "metrics",
+                    "weight": 0
+                },
+                {
+                    "id": "screenshot-thumbnails",
+                    "weight": 0
+                },
+                {
+                    "id": "final-screenshot",
+                    "weight": 0
+                },
+                {
+                    "id": "first-contentful-paint-3g",
+                    "weight": 0
+                }]
+            }
+        },
+        "categoryGroups":
+        {
+            "a11y-aria":
+            {
+                "title": "ARIA",
+                "description": "These are opportunities to improve the usage of ARIA in your application which may enhance the experience for users of assistive technology, like a screen reader."
+            },
+            "a11y-audio-video":
+            {
+                "title": "Audio and video",
+                "description": "These are opportunities to provide alternative content for audio and video. This may improve the experience for users with hearing or vision impairments."
+            },
+            "a11y-language":
+            {
+                "title": "Internationalization and localization",
+                "description": "These are opportunities to improve the interpretation of your content by users in different locales."
+            },
+            "a11y-tables-lists":
+            {
+                "title": "Tables and lists",
+                "description": "These are opportunities to to improve the experience of reading tabular or list data using assistive technology, like a screen reader."
+            },
+            "a11y-names-labels":
+            {
+                "title": "Names and labels",
+                "description": "These are opportunities to improve the semantics of the controls in your application. This may enhance the experience for users of assistive technology, like a screen reader."
+            },
+            "budgets":
+            {
+                "title": "Budgets",
+                "description": "Performance budgets set standards for the performance of your site."
+            },
+            "metrics":
+            {
+                "title": "Metrics"
+            },
+            "load-opportunities":
+            {
+                "title": "Opportunities",
+                "description": "These suggestions can help your page load faster. They don't [directly affect](https://github.com/GoogleChrome/lighthouse/blob/d2ec9ffbb21de9ad1a0f86ed24575eda32c796f0/docs/scoring.md#how-are-the-scores-weighted) the Performance score."
+            },
+            "pwa-installable":
+            {
+                "title": "Installable"
+            },
+            "seo-mobile":
+            {
+                "title": "Mobile Friendly",
+                "description": "Make sure your pages are mobile friendly so users don\u2019t have to pinch or zoom in order to read the content pages. [Learn more](https://developers.google.com/search/mobile-sites/)."
+            },
+            "diagnostics":
+            {
+                "title": "Diagnostics",
+                "description": "More information about the performance of your application. These numbers don't [directly affect](https://github.com/GoogleChrome/lighthouse/blob/d2ec9ffbb21de9ad1a0f86ed24575eda32c796f0/docs/scoring.md#how-are-the-scores-weighted) the Performance score."
+            },
+            "a11y-best-practices":
+            {
+                "title": "Best practices",
+                "description": "These items highlight common accessibility best practices."
+            },
+            "seo-crawl":
+            {
+                "title": "Crawling and Indexing",
+                "description": "To appear in search results, crawlers need access to your app."
+            },
+            "a11y-color-contrast":
+            {
+                "title": "Contrast",
+                "description": "These are opportunities to improve the legibility of your content."
+            },
+            "pwa-optimized":
+            {
+                "title": "PWA Optimized"
+            },
+            "seo-content":
+            {
+                "title": "Content Best Practices",
+                "description": "Format your HTML in a way that enables crawlers to better understand your app\u2019s content."
+            },
+            "a11y-navigation":
+            {
+                "title": "Navigation",
+                "description": "These are opportunities to improve keyboard navigation in your application."
+            },
+            "pwa-fast-reliable":
+            {
+                "title": "Fast and reliable"
+            }
+        },
+        "timing":
+        {
+            "total": 5619.33
+        },
+        "i18n":
+        {
+            "rendererFormattedStrings":
+            {
+                "varianceDisclaimer": "Values are estimated and may vary. The performance score is [based only on these metrics](https://github.com/GoogleChrome/lighthouse/blob/d2ec9ffbb21de9ad1a0f86ed24575eda32c796f0/docs/scoring.md#how-are-the-scores-weighted).",
+                "opportunityResourceColumnLabel": "Opportunity",
+                "opportunitySavingsColumnLabel": "Estimated Savings",
+                "errorMissingAuditInfo": "Report error: no audit information",
+                "errorLabel": "Error!",
+                "warningHeader": "Warnings: ",
+                "auditGroupExpandTooltip": "Show audits",
+                "passedAuditsGroupTitle": "Passed audits",
+                "notApplicableAuditsGroupTitle": "Not applicable",
+                "manualAuditsGroupTitle": "Additional items to manually check",
+                "toplevelWarningsMessage": "There were issues affecting this run of Lighthouse:",
+                "crcLongestDurationLabel": "Maximum critical path latency:",
+                "crcInitialNavigation": "Initial Navigation",
+                "lsPerformanceCategoryDescription": "[Lighthouse](https://developers.google.com/web/tools/lighthouse/) analysis of the current page on an emulated mobile network. Values are estimated and may vary.",
+                "labDataTitle": "Lab Data"
+            }
+        }
+    },
+    "analysisUTCTimestamp": "2020-03-09T12:48:30.388Z"
+}
