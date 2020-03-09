@@ -1,6 +1,7 @@
 import json
 import requests
 import pandas as pd
+from pandas import read_csv 
 import io
 from bs4 import BeautifulSoup
 
@@ -16,6 +17,14 @@ urls = [element.text for element in sitemap_index.findAll('loc')]
 print(urls)
 
 # Write sitemap URLs to CSV
-with open('marketreach_urls.csv', 'w') as f:
+with open('marketreach_without_header.csv', 'w') as f:
     for url in urls:
         f.write(url + '\n')
+
+     
+df = read_csv('marketreach_without_header.csv')
+df.columns = ['url']
+df.to_csv('marketreach_urls.csv')
+
+
+column_header='url'
