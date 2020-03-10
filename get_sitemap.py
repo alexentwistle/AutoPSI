@@ -51,7 +51,7 @@ for i in range(0, len(df)):
 
         # Insert returned json response into response_object
         response_object[url] = pagespeed_results_json
-        time.sleep(30)
+        time.sleep(20)
         
         print(response_object[url])
 
@@ -60,3 +60,27 @@ for i in range(0, len(df)):
             #json.dump(response_object[url], outfile)
         
         #files.download('pagespeed_results_json')
+
+
+# TODO: Create dataframe to store responses
+# Create dataframe to store field data responses
+df_pagespeed_results = pd.DataFrame(
+columns=['url',
+         'FCP_category',
+         'FCP_percentile',
+         'FID_category',
+         'FID_percentile',
+         'Time_to_Interactive',
+         'Speed_Index',
+         'First_CPU_Idle',
+         'First_Meaningful_Paint',
+         'TTFB',
+         'Total_Blocking_Time'])  
+
+print(df_pagespeed_results)
+
+
+
+
+
+# Iterate through the response object to pull out desired metrics
