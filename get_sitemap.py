@@ -22,9 +22,12 @@ with open('marketreach_without_header.csv', 'w') as f:
         f.write(url + '\n')
 
      
+# Add column header 'URL' to CSV and re-save
 df = read_csv('marketreach_without_header.csv')
 df.columns = ['url']
 df.to_csv('marketreach_urls.csv')
+
+# TODO: Delete old (headerless) CSV
 
 
 column_header='url'
