@@ -29,5 +29,34 @@ df.to_csv('marketreach_urls.csv')
 
 # TODO: Delete old (headerless) CSV
 
-
 column_header='url'
+
+response_object = {}
+
+# Iterate through the df
+for i in range(0, len(df)):
+
+        #print('Requesting row #:', i)
+
+        # Define request parameter
+        url = df.iloc[i][column_header]
+
+        # TODO: FIX THIS USING REQUESTS LIBRARY
+        # Make request
+        pagespeed_results = urllib.request.urlopen('https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url={}&strategy=mobile'\
+            .format(url)).read().decode('UTF-8')
+
+        # Convert to json format
+        pagespeed_results_json = json.loads(pagespeed_results)
+
+        # Insert returned json response into response_object
+        response_object[url] = pagespeed_results_json
+        time.sleep(30)
+        
+        print(response_object[url])
+
+        #Optional download of json files, comment out to skip this step 
+        #with open('pagespeed_results_json', 'w') as outfile:
+            #json.dump(response_object[url], outfile)
+        
+        #files.download('pagespeed_results_json')
