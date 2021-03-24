@@ -42,7 +42,7 @@ pytz==2019.3
 pywin32==227
 pyzmq==19.0.0
 requests==2.21.0
-rsa==4.0
+rsa==4.1
 simplegeneric==0.8.1
 six==1.12.0
 soupsieve==1.9.5
