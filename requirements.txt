@@ -11,7 +11,7 @@ colorama==0.4.3
 cssselect==1.1.0
 decorator==4.4.2
 defusedxml==0.6.0
-dnspython==1.16.0
+dnspython==2.6.1
 entrypoints==0.3
 google-auth==1.4.2
 google-colab==1.0.0
